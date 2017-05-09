@@ -1,0 +1,73 @@
+/*
+Error: Undefined mixin 'span-columns'.
+        on line 8 of /Users/Pavan/Desktop/susy-v1/sass/style.scss, in `span-columns'
+        from line 8 of /Users/Pavan/Desktop/susy-v1/sass/style.scss
+
+3: 
+4: 
+5: 
+6: .wrap {
+7: 	background-color:#fff;
+8: 	@include span-columns(6);
+9: }
+
+Backtrace:
+/Users/Pavan/Desktop/susy-v1/sass/style.scss:8:in `span-columns'
+/Users/Pavan/Desktop/susy-v1/sass/style.scss:8
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/stack.rb:98:in `with_mixin'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:349:in `visit_mixin'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/tree/root_node.rb:20:in `render'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/engine.rb:281:in `render'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/Pavan/.rvm/gems/ruby-2.2.5/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'span-columns'.\A         on line 8 of /Users/Pavan/Desktop/susy-v1/sass/style.scss, in `span-columns'\A         from line 8 of /Users/Pavan/Desktop/susy-v1/sass/style.scss\A \A 3: \A 4: \A 5: \A 6: .wrap {\A 7: 	background-color:#fff;\A 8: 	@include span-columns(6);\A 9: }"; }

@@ -1,0 +1,9 @@
+@import 'compass';
+@import 'susy';
+
+
+
+.wrap {
+	background-color:#fff;
+	@include span-columns(6);
+}
